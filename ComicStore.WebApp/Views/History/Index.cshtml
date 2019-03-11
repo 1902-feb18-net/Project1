@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ET.ComicStore.Library.ComicStore>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="ShowStore">Show Order History for a Store Location</a>
+    <br />
+    <br />
+    <a asp-action="ShowCustomer">Show Order History for a Customer</a>
+    <br />
+    <br />
+    <a asp-action="ShowEarly">Show Order History Sorted by Earliest</a>
+    <br />
+    <br />
+    <a asp-action="ShowLate">Show Order History Sorted by most recent</a>
+    <br />
+    <br />
+    <a asp-action="ShowCheap">Show Order History Sorted by cheapest</a>
+    <br />
+    <br />
+    <a asp-action="ShowExpensive">Show Order History Sorted by most expensive </a>
+    <br />
+    <br />
+    <a asp-action="ShowStats">Show Order Statistics </a>
+</p>
+
